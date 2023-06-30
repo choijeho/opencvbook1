@@ -1,6 +1,6 @@
 2023.6.29 Choi Jaeho
 
-pycharm 
+pycharm 2021.3.3(Community Edition)
 python 3.9
 opencv-python 4.7.0.72
 opencv-contrib-python 4.7.0.72
