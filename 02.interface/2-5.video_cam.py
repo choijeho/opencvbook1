@@ -1,6 +1,7 @@
 import cv2
 
 cap = cv2.VideoCapture(0)               # 0번 카메라 장치 연결 ---①
+# cap = cv2.VideoCapture(0, cv2.CAP_DSHOW) # 카메라 초기화 속도 향상됨.
 if cap.isOpened():                      # 캡쳐 객체 연결 확인
     while True:
         ret, img = cap.read()           # 다음 프레임 읽기
